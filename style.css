@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 150px;
+    background: black;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+.headmenutop{
+    height:20%;
+}
+.headmenubottom{
+    height: 58%;
+}
+.nav{
+    float: right;
+    font-size: 14px;
+    margin-right: 17px;
+    
+}
+.headmenutop li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between 3px;
+    padding: 20px;
+    padding-left: 10px;
+
+}
+.headmenutop li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+hr{
+    height: 0px;
+    width: 100%;
+    background: silver;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 18px;
+    width: 122px;
+}
+
+.hdsrch{
+    width: 200px;
+    height: 40px;
+    margin-top: 19px;
+    margin-left: 900px;
+    background: black;
+    border-color: white;
+    color: white;
+}
+.hdmnat{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 27px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.hdmnat li{
+padding-left: 10rem;
+margin-bottom: 25rem;
+text-decoration: none;
+list-style: none;
+padding-left: 20px;
+
+}
+.hdmnat li a:hover{
+    color: antiquewhite;
+}
+.hdmnat li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.headmenubottom{
+    display: flex;
+}
+/* .headmenubottom ul {
+    justify-content: space-between;
+} */
+.dis{
+    height: 5px;
+    background: white;
+}
+.hdbanner{
+    display: flex;
+    height: 350px;
+    background: red;
+    background-image: url(source/1386051-tech-banner-darker-1920x800.jpeg);
+    background-position: 20px;
+}
+.pensando{
+    width: 600px;
+    height: 500px;
+    background-image: url(source/1423875-pensando-logo-white-1260x709_0.png);
+    background-size: contain;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+}
+.banwrt{
+    color: white;
+    padding-top: 80px;
+    list-style: none;
+    height: 100px;
+}
+.banwrt li{
+    justify-content: space-between 10px;
+
+}
+.banwrm{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.banwrn{
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 10px;
+    
+}
+.learn{
+    margin-top: 150px;
+    margin-left: -950px; 
+   justify-content: center;
+   padding: 50px;
+   height: 50px;
+   background: none;
+   
+}
+.button{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    /* border-radius: 10px; */
+    background: none;
+    border-color: white;
+    color: white;
+    
+}
+.button:hover{
+    background:rgb(0,0, 0,0.4);
+    border-color: black;
+    
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    /* background-color: #2f1d58; */
+    height: 45vh;
+    overflow: auto;
+    flex-direction: row;
+    /* padding-left: 10px; */
+    padding-top: 90px;
+}
+
+.FlexContainer div {
+    width: 600px;
+    height: 412px;
+    margin: 10px;
+    /* background-color: lightblue; */
+}
+.pic1{
+    background-image: url(source/716946-amd-ryzen-9-5000-series-PIB-shadow-1260x709_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.picpara .pic-text{
+    margin-top: 40px;
+}
+.picpara .pic-text h5{
+    margin-top: 3px;
+}
+
+.pic2{
+    background-image: url(source/700302-generic-desktop-radeon-6700xt-transparent-1260x709.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pic3{
+    background-image: url(source/749511-amd-radeon-6000-series-4-boxes-1260x709_0.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.picpara{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    padding-top: 300px;
+}
+.picpara .learnprod{
+    margin-top: 32px;
+    margin-left: 1px;
+}
+.learn1{
+    margin-top: 150px;
+    margin-left: -950px; 
+   justify-content: center;
+   padding: 50px;
+   height: 50px;
+   background: none;
+   
+}
+.button1{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    /* border-radius: 10px; */
+    background: none;
+    border-color: black;
+    color: black;
+}
+.button1:hover{
+    background:black;
+    border-color: black;
+    color: white;
+    
+}
+.financial{
+    height: 300px;
+    background: black;
+    justify-content: center;
+}
+.fincont{
+    display: flex;
+    /* background: red; */
+    /* width: auto; */
+    height: 250px;
+    margin: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.amdlogo{
+    width: 250px;
+    height: 250px;
+    background-image: url(source/1413018-arrow-1260x709.png);
+    background-size: contain;
+    /* background:white; */
+    padding: 50px;
+    margin-left: 400px;
+    background-repeat: no-repeat;
+}
+.chip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    /* width: 65%; */
+    background-color: #E1E1E2;
+    height: 60vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.whp,.exascale {
+    width: 900px;
+    height: 500px;
+    margin: 10px;
+    /* background-color: lightblue; */
+}
+.whpimg{
+    width: 900;
+    height: 300px;
+    /* background: yellow; */
+    background-image: url(source/1261550-epyc-home-banner-1920x600.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.exaimg{
+    width: 900;
+    height: 300px;
+    /* background: yellow; */
+    background-image: url(source/1261576-AMD-Instinct-MI210-installed-1920x600.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ban3{
+    height: 350px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(source/1401086-amd-hpc-fund-datacenter-1920x600.webp);
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    /* align-content: center; */
+}
+.ban3logo{
+    padding: 200px;
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-image: url(source/1401086-amd-hpc-fund-logo-1260x709_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.banpara{
+    margin-top: 80px;
+}
+.learnpara{
+    /* margin-top: 150px; */
+    /* margin-left: -200px;  */
+   justify-content: center;
+   padding: 30px;
+   height: 50px;
+   background: none;
+   
+}
+.buttonpara{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    /* border-radius: 10px; */
+    background: none;
+    border-color: rgb(252, 252, 252);
+    color: white;
+}
+.buttonpara:hover{
+    background:rgb(209, 208, 208);
+    border-color: black;
+    color: white;   
+}
+.learn8{
+    margin-top: 100px;
+    margin-left: -670px;
+   padding: 0px;
+   height: 50px;
+   background: none;
+}
+.learnpro{
+    margin-top: 30px;
+   padding: 0px;
+   height: 50px;
+   background: none;
+   
+}
+.learnpro1{
+    margin-top: 40px;
+   padding: 0px;
+   height: 50px;
+   background: none;
+   
+}
+.exacont h4{
+    margin-top: 6px;
+    font-weight: lighter;
+}
+.whpcont h4{
+    margin-top: 6px;
+    font-weight: lighter;
+}
+.button1{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    /* border-radius: 10px; */
+    background: none;
+    border-color: black;
+    color: black;
+}
+.button1:hover{
+    background:black;
+    border-color: black;
+    color: white;
+    
+}
+.games{
+    
+    height: 600px;
+}
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 100%;
+    background-color: #2f1d58;
+    height: 60vh;
+    overflow: auto;
+    flex-direction: row;
+    background-image: url(source/10286-xfxrx550-background-1920x600.jpeg);
+}
+
+.halo,.gow,.farcry {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    /* background-color: lightblue; */
+}
+.haloimg{
+background-image: url(source/1067881-Halo-Infinite-Keyart-1260x709.jpg);
+height: 200px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.gowimg{
+background-image: url(source/1209353-GOW-key-art-1260x709.jpg);
+height: 200px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.farcryimg{
+background-image: url(source/871550-FarCry6-key-art-1260x709.jpg);
+height: 200px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.learngame{
+    margin-top: 120px;
+    /* margin-left: -200px;  */
+   justify-content: center;
+   
+   height: 50px;
+   background: none;
+   
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 100%;
+    background-color: black;
+    height: 30vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.footdit {
+    width: 1200px;
+    height: 30vh;
+    margin: px;
+    /* background-color: lightblue; */
+}
+.ftditmen{
+    display: flex;
+    list-style: none;
+}
+.ftditmen li{
+    float: left;
+    margin: 2px;
+    justify-content: space-between 10px;
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+}
+
+.ftditmen li a{
+    color: white;
+    text-decoration: none;
+}
+.email{
+    /* background: wheat; */
+    height: 178px;
+}
+.email p{
+    padding-top: 30px;
+}
+.emailbox{
+    width: 60%;
+    height: 100px;
+    background: #273038;
+    margin-top: 1px;
+}
+.searchft{
+    width: 300px;
+    height: 30px;
+    margin-left: 5px;
+    background: #969699;
+}
+.fotcon li{
+    float: left;
+    color: white;
+    font-size: small;
+    list-style: none;
+}
+.fotcon li a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    height: 20px;
+    width: 40%;
+    color: white;
+    margin-left: 804px;
+    font-size: 29px;
+    letter-spacing: 12px;
+    margin-top: -72px;
+    padding: 15px;
+
+}
+.fotcon{
+    margin-top: 10px;
+}
+.fotcon p{
+    font-size: 16px;
+}
+.fotcon ul{
+    margin-top: 5px;
+}
